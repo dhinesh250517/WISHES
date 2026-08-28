@@ -292,6 +292,13 @@ function GiftScene({ onOpen }: { onOpen: () => void }) {
 /* ------------------------------------------------------------------ */
 function LetterScene({ onNext }: { onNext: () => void }) {
   const [unfolded, setUnfolded] = useState(false);
+  const handleLetterTap = () => {
+    if (!unfolded) {
+      setUnfolded(true);
+      return;
+    }
+    onNext();
+  };
 
   return (
     <div className="animate-stage-in flex min-h-dvh flex-col items-center justify-center px-5 py-14">
@@ -299,7 +306,7 @@ function LetterScene({ onNext }: { onNext: () => void }) {
         className={`relative w-full max-w-lg cursor-pointer transition-transform duration-500 ${
           unfolded ? "scale-100" : "scale-90 hover:scale-95"
         }`}
-        onClick={() => setUnfolded(true)}
+        onClick={handleLetterTap}
         style={{ perspective: "1200px" }}
       >
         <div className="rounded-sm bg-parchment p-7 pb-10 text-ink shadow-[0_25px_60px_-15px_rgba(0,0,0,0.7),inset_0_0_60px_rgba(120,80,20,0.15)] sm:p-10">
@@ -324,15 +331,9 @@ function LetterScene({ onNext }: { onNext: () => void }) {
           </div>
         )}
       </div>
-
-      {unfolded && (
-        <button
-          onClick={onNext}
-          className="animate-stage-in mt-10 rounded-full border border-gold/60 bg-gold/10 px-10 py-3.5 text-sm font-semibold uppercase tracking-[0.3em] text-gold transition-all hover:scale-105 hover:bg-gold hover:text-primary-foreground active:scale-95"
-        >
-          See More
-        </button>
-      )}
+      <p className="mt-8 font-hand text-2xl text-foreground/80">
+        {unfolded ? "tap the letter to continue" : ""}
+      </p>
     </div>
   );
 }
