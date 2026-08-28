@@ -1,53 +1,53 @@
-export const letterText = `My dearest Dharani,
+export const letterText = `My bestestest Dharani,
 
-Some people walk into your life quietly, and then one day you realize the whole world feels warmer because they exist. That's you.
+Some people walk into your life quietly, and then one day you realize the whole world feels better because they exist. That's you.
 
-On your birthday, I don't just want to wish you a happy day — I want you to know how rare you are. The kind of rare that people search their whole lives for and only find once.
+On your birthday, I don't just want to wish you a happy day .. I want you to know how rare you are. The kind of rare that people search their whole lives for and only find once.
 
-So today, the candles, the wishes, the stars — they all belong to you.
+So today, the candles, the wishes, the stars .. they all belong to you.
 
 With all my heart,
 always.`;
 
 export const characterCards = [
   {
-    title: "Your Kindness",
-    text: "You give without keeping score. The way you care for people — even when no one is watching — is the quietest, strongest thing about you.",
+    title: "Your Presence",
+    text: "You don’t have to say anything. Just being around you somehow makes everything feel a little better.",
   },
   {
-    title: "Your Smile",
-    text: "It arrives before you do and stays long after you leave. Rooms genuinely change when you walk into them smiling.",
+    title: "Your Happiness",
+    text: "Seeing you genuinely happy has a way of making the world feel a little brighter too.",
   },
   {
-    title: "Your Strength",
-    text: "You've carried hard days with a grace most people never see. You bend, you never break — and you make it look effortless.",
+    title: "Your Positivity",
+    text: "you somehow find a little light even on ordinary days. Being around you makes things feel a bit more hopeful..",
   },
   {
-    title: "Your Laughter",
-    text: "That laugh — the real one, the unguarded one — is my favorite sound in any room, in any city, on any day.",
+    title: "Your Independence",
+    text: "You know how to stand on your own, yet you never make others feel unnecessary. That balance says a lot about you.",
   },
   {
-    title: "Your Heart",
-    text: "You love people fully, without armor. In a world that teaches everyone to be careful, you choose to be open. That's brave.",
+    title: "Your Understanding",
+    text: "You don’t just listen to respond; you actually try to understand. That makes conversations with you feel different.",
   },
   {
-    title: "Your Dreams",
-    text: "You dream with your whole chest. Watching you chase what you want makes everyone around you believe a little more too.",
+    title: "Your Respect",
+    text: "You make people feel heard and valued. The way you treat others says more about you than any words could.",
   },
   {
-    title: "Your Honesty",
-    text: "You say the true thing, gently. People trust you because you never make them guess where they stand with you.",
+    title: "Your Perspective",
+    text: "You notice things differently. The way you look at situations often reveals a side of life that others might overlook.",
   },
   {
-    title: "Your Patience",
-    text: "With people, with chaos, with life — you hold space for things to unfold. You never rush what deserves time.",
+    title: "Your Uniqueness",
+    text: "You have little qualities that belong completely to you. They’re the kind of things that make someone impossible to replace.",
   },
   {
-    title: "Your Magic",
-    text: "There's something about you that can't be explained on paper. A warmth. A light. Call it what you want — it's real.",
+    title: "Your Little Reactions",
+    text: "You somehow have an expression for every little feeling, and every single one of them has its own kind of charm.",
   },
   {
     title: "Simply, You",
-    text: "Not for anything you do. Just for existing exactly as you are. You are enough — you have always been enough.",
+    text: "Not for anything you do. Just for existing exactly as you are. You are enough.. you have always been enough.",
   },
 ];
