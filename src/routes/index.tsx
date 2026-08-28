@@ -398,7 +398,7 @@ function FinaleScene() {
     <div className="animate-stage-in flex min-h-dvh flex-col items-center justify-center px-6 text-center">
       <div className="animate-glow-pulse absolute h-64 w-64 rounded-full bg-[radial-gradient(circle,var(--rose),transparent_70%)] opacity-30 blur-2xl" />
       <p className="mb-4 text-sm uppercase tracking-[0.4em] text-muted-foreground">
-        and so, dear dharani —
+        and so, bestest dharuu —
       </p>
       <h1 className="font-display relative text-4xl font-bold leading-tight sm:text-6xl">
         <span className="bg-gradient-to-r from-gold via-rose to-gold bg-clip-text text-transparent">
@@ -408,8 +408,8 @@ function FinaleScene() {
         <span className="text-foreground">You Bestestesttt One</span>
       </h1>
       <p className="font-hand mt-8 max-w-md text-2xl leading-relaxed text-foreground/85 sm:text-3xl">
-        May every candle you ever blow out come true. Today, tomorrow, and always — the world is
-        better with you in it.
+        May every day bring you something beautiful and make you feel a little more special,
+        because a genuinely good soul like yours deserves all the happiness, care, and wonderful things life has to offer.
       </p>
       <div className="mt-10 flex gap-3 text-3xl">
         <span className="animate-sparkle">🎂</span>
@@ -417,7 +417,7 @@ function FinaleScene() {
         <span className="animate-sparkle" style={{ animationDelay: "0.8s" }}>❤️</span>
       </div>
       <p className="mt-12 text-xs uppercase tracking-[0.35em] text-muted-foreground">
-        — with love, always —
+        — grateful, always. —
       </p>
     </div>
   );
